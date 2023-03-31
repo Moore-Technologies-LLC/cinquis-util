@@ -1,12 +1,11 @@
-import spacy
 import numpy as np
 import matplotlib.pyplot as plt
 import wordcloud
 from sklearn.feature_extraction.text import CountVectorizer
 from scipy.stats import zipf
 from nltk import FreqDist
-import en_core_web_lg
-nlp = en_core_web_lg.load()
+import en_core_web_sm
+nlp = en_core_web_sm.load()
 
 
 def cleanText(dirty_text):
