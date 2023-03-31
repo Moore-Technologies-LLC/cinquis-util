@@ -9,3 +9,5 @@ cleand up code with pylint
 renamed cinquis-util to cinquis_util due to package name requirements
 ### 0.0.4
 renamed src/cinquis-util to src/cinquis_util and updated build files
+### 0.0.5
+updated text_analytics.py to import spacy
