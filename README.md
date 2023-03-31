@@ -11,3 +11,5 @@ renamed cinquis-util to cinquis_util due to package name requirements
 renamed src/cinquis-util to src/cinquis_util and updated build files
 ### 0.0.5
 updated text_analytics.py to import spacy
+### 0.0.6
+updated to use spacy current, removed some old spacy imports for cli

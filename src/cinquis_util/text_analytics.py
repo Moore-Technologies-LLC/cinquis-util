@@ -1,12 +1,10 @@
 import spacy
-import spacy.cli
 import numpy as np
 import matplotlib.pyplot as plt
 import wordcloud
 from sklearn.feature_extraction.text import CountVectorizer
 from scipy.stats import zipf
 from nltk import FreqDist
-spacy.cli.download("en_core_web_lg")
 import en_core_web_lg
 nlp = en_core_web_lg.load()
 
